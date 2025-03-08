@@ -24,10 +24,10 @@ A continuación, se muestra un diagrama típico de la Arquitectura Limpia:
 
 ### Explicación de las capas
 
-1. Entidad (Entities o Domain): Contienen las reglas de negocio y entidades del dominio.
-2. Caso de Uso (Use case o Application): Implementa la lógica de aplicación y orquesta las operaciones entre las entidades y las capas externas.
-3. Infraestructura (Infrastructure): Implementa detalles como base de datos, servicios externos y Frameworks.
-4. Interfaz de Usuario (Presentation): Incluye los controladores, vistas o cualquier interacción con el usuario.
+1. **Entidad (Entities o Domain)**: Contienen las reglas de negocio y entidades del dominio.
+2. **Caso de Uso (Use case o Application)**: Implementa la lógica de aplicación y orquesta las operaciones entre las entidades y las capas externas.
+3. **Infraestructura (Infrastructure)**: Implementa detalles como base de datos, servicios externos y Frameworks.
+4. **Interfaz de Usuario (Presentation)**: Incluye los controladores, vistas o cualquier interacción con el usuario.
 
 ## Contribuciones
 
@@ -35,4 +35,4 @@ Si quieres mejorar o extender este proyecto, ¡Las contribuciones son bienvenida
 
 ## Licencia
 
-Este proyecto está bajo la licencia MIT. Puedes usarlo libremente en tus proyectos.
+Este proyecto está bajo la licencia GNU GPL.
