@@ -4,7 +4,9 @@
 
 Este proyecto es una implementación de la arquitectura limpia (Clean Architecture) en C# con el propósito de ejemplificar las mejores prácitcas en el diseño de software.
 
-La idea principal es demostrar cómo se puede organizar las dependencias de una aplicación de manera que el código sea mantenible, estable y flexible a cambios futuros.
+La idea principal es demostrar de la manera más sencilla cómo se puede organizar las dependencias de una aplicación de manera que el código sea mantenible, estable y flexible a cambios futuros.
+
+En muchos ejemplos que vi se utilizan más tecnologías como MediatR, CQRS y FluentValidation, pero para mantener la sencillez decidí no incluirlas.
 
 Este repositorio puede servir como punto de partida para desarrollar aplicaciones siguiendo la filosofía de la Arquitectura Limpia.
 
