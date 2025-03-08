@@ -1,0 +1,51 @@
+# For more info on HTTP files go to https://aka.ms/vs/httpfile
+@host = https://localhost
+@port = 7073
+
+@ComicBookStore_API_HostAddress = {{host}}:{{port}}
+
+GET {{ComicBookStore_API_HostAddress}}/api/comicbookstore/comics
+Accept: application/json
+
+###
+
+GET {{ComicBookStore_API_HostAddress}}/api/comicbookstore/comics/10002
+Accept: application/json
+
+###
+
+GET {{ComicBookStore_API_HostAddress}}/api/comicbookstore/comics/9999
+Accept: application/json
+
+###
+
+POST {{ComicBookStore_API_HostAddress}}/api/comicbookstore/comics
+Content-Type: application/json
+
+{
+    "Title": "TMNT: The Last Ronin",
+    "IssueNumber": "1",
+    "PublisherId": 20010,
+    "PublisherName": "IDW Publishing",
+    "Genre": "Action",
+    "Price": 275,
+    "Description": "MaLorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris dignissim leo sed nibh rutrum malesuada.",
+    "Condition": "CGC 9.8"
+}
+
+###
+
+GET {{ComicBookStore_API_HostAddress}}/api/comicbookstore/authors
+Accept: application/json
+
+###
+
+GET {{ComicBookStore_API_HostAddress}}/api/comicbookstore/authors/30002
+Accept: application/json
+
+###
+
+GET {{ComicBookStore_API_HostAddress}}/api/comicbookstore/authors/999
+Accept: application/json
+
+###
